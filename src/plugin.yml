@@ -1,0 +1,15 @@
+name: OTECommandHandler
+version: 1.0
+description: Handles commands
+
+author: Justin A
+website: 
+
+main: devihaka.plugins.OTECommandHandler.OTECommandHandler
+
+commands:
+   /ticket:
+      description: OTE Admin Ticket System
+      usage: 
+      permission: 
+      permission-message: 
