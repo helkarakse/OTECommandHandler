@@ -8,10 +8,8 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class OTECommandHandler extends JavaPlugin implements Listener {
-
-	
 	@EventHandler
-    public boolean onCommand(CommandSender sender, Command command, String name, String[] args) {
+    public boolean onCommand(CommandSender sender, Command command, String[] args) {
 		if (command.getName().equalsIgnoreCase("/ticket")) {
 			if(args.length > 0 ) {
 				if(args[0].equalsIgnoreCase("new") || args[0].equalsIgnoreCase("desc") || args[0].equalsIgnoreCase("submit")) {
