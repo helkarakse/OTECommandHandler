@@ -10,6 +10,6 @@ main: devihaka.plugins.OTECommandHandler.OTECommandHandler
 commands:
    /ticket:
       description: OTE Admin Ticket System
-      usage: 
+      usage: //ticket new
       permission: 
       permission-message: 
