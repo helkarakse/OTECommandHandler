@@ -12,14 +12,14 @@ public class OTECommandHandler extends JavaPlugin implements Listener {
     public boolean onCommand(CommandSender sender, Command command, String name, String[] args) {
 		if (command.getName().equalsIgnoreCase("/ticket")) {
 			if(args.length > 0 ) {
-				if(args[0].equalsIgnoreCase("new") || args[0].equalsIgnoreCase("desc") || args[0].equalsIgnoreCase("submit")) {
+				if(args[0].equalsIgnoreCase("new") || args[0].equalsIgnoreCase("desc") || args[0].equalsIgnoreCase("submit") || args[0].equalsIgnoreCase("help")) {
 					return true;
 				} else {
-					sender.sendMessage(ChatColor.RED + "Usage: //ticket new");
+					sender.sendMessage(ChatColor.RED + "Usage: //ticket help");
 					return true;
 				}
 			} else {
-				sender.sendMessage(ChatColor.RED + "Usage: //ticket new");
+				sender.sendMessage(ChatColor.RED + "Usage: //ticket help");
 				return true;
 			}
 		}
