@@ -13,3 +13,16 @@ commands:
       usage: //ticket help
       permission: 
       permission-message: 
+
+   /issue:
+      description: OTE Admin Ticket System
+      usage: //issue help
+      permission: 
+      permission-message: 
+
+
+   /service:
+      description: OTE Global Service System
+      usage: //service help
+      permission: 
+      permission-message: 
